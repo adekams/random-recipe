@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Random Recipe</title>
+</head>
+<body>
+    <div id="toggle">
+        <div class="wrapper">
+            <button class="dark-mode">
+                <i class="fas fa-moon" id="icon"></i>
+            </button>
+        </div>
+        
+    </div>
+   <div class="container">
+       <div class="main">
+           <div class="header">
+                <div class="wrapper center">
+                    <h1>Hungry?</h1>
+                    <p>Not sure what to eat? Click the button below to get a random food suggestion</p>
+                    <button class="btn" id="meal-btn">Get Meal</button> 
+                    <p class="error"></p>      
+                </div>
+                
+                <div class="wrapper">
+                   <div class="meal"></div> 
+                </div>
+            </div>
+       </div>
+   </div> 
+
+   <script src="js/script.js"></script>
+</body>
+</html>
